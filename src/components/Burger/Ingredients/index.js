@@ -32,14 +32,10 @@ const ingredients =  (props) => {
             break;
         default:
             ingredient = null;
-
-
     }
-
     return (
         ingredient
     )
-
 }
 
 ingredients.propTypes = {
